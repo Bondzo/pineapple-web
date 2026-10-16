@@ -1,0 +1,67 @@
+/* Hallmark · tokens.css
+ * theme: custom · vibe: "sharp engineered systems, crisp tactile typography, no fluff"
+ * paper: oklch(98.5% 0.005 85) · ink: oklch(18% 0.012 85) · accent: oklch(68% 0.16 65)
+ * axes: light / geometric-sans / chromatic-amber
+ */
+
+:root {
+  /* Paper & Surfaces (Tinted Warm Ivory-White, zero pure #fff) */
+  --color-paper: oklch(98.5% 0.005 85);
+  --color-paper-2: oklch(96.5% 0.007 85);
+  --color-paper-3: oklch(94% 0.009 85);
+
+  /* Inks & Typography (Tinted Deep Obsidian, zero pure #000) */
+  --color-ink: oklch(18% 0.012 85);
+  --color-ink-2: oklch(38% 0.012 85);
+  --color-muted: oklch(54% 0.010 85);
+
+  /* Rules & Hairlines */
+  --color-rule: oklch(86% 0.008 85);
+  --color-rule-2: oklch(91% 0.006 85);
+
+  /* Single Accent Anchor: Raw Warm Amber / Gold (Derived from Pineapple fruit mesh) */
+  --color-accent: oklch(68% 0.16 65);
+  --color-accent-ink: oklch(98.5% 0.005 85);
+  --color-focus: oklch(64% 0.20 65);
+
+  /* Semantic Tech Green (Derived from Pineapple Crown < >) */
+  --color-signal: oklch(52% 0.14 145);
+
+  /* Typography Pairing: Bricolage Grotesque (Architectural Display) + Plus Jakarta Sans (Clean Body) + JetBrains Mono */
+  --font-display: 'Bricolage Grotesque', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-body: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  /* 4pt Spacing Scale */
+  --space-2xs: 4px;
+  --space-xs: 8px;
+  --space-sm: 12px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+  --space-2xl: 48px;
+  --space-3xl: 64px;
+  --space-4xl: 96px;
+
+  /* Type Scale */
+  --text-xs: 0.75rem;    /* 12px */
+  --text-sm: 0.875rem;   /* 14px */
+  --text-base: 1rem;     /* 16px */
+  --text-lg: 1.125rem;   /* 18px */
+  --text-xl: 1.25rem;    /* 20px */
+  --text-2xl: 1.5rem;    /* 24px */
+  --text-3xl: 2rem;      /* 32px */
+  --text-4xl: 2.75rem;   /* 44px */
+  --text-display: 3.75rem; /* 60px */
+
+  /* Disciplined Motion */
+  --dur-fast: 120ms;
+  --dur-normal: 200ms;
+  --dur-reveal: 450ms;
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+
+  /* Anti-Slop Strict Radius: Crisp 2px - 4px maximum (No bubble pill cards) */
+  --radius-xs: 2px;
+  --radius-sm: 4px;
+}

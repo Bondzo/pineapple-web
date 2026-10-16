@@ -1,0 +1,68 @@
+/* PINEAPPLE DESIGN SYSTEM · APPLE-INSPIRED TACTILE SOFT WARMTH
+ * Theme: Pineapple Soft Natural (Golden Amber + Pine Green + Warm Cream Paper)
+ * Vibe: "fluid, premium Apple-like clarity, gentle rounded ergonomics, soft shadow depth"
+ */
+
+:root {
+  /* Surfaces & Paper (Apple-grade warm ivory & soft cream surfaces) */
+  --color-paper: #FAF8F5;
+  --color-paper-card: #FFFFFF;
+  --color-paper-muted: #F3EFE8;
+  --color-paper-subtle: #EBE5DB;
+
+  /* Inks & Text (Deep Warm Cocoa-Stone, never harsh pure #000) */
+  --color-ink: #1C1917;
+  --color-ink-secondary: #57534E;
+  --color-ink-muted: #78716C;
+  --color-ink-faint: #A8A29E;
+
+  /* Natural Pineapple Color Palette */
+  --color-pineapple-gold: #E89E23;
+  --color-pineapple-amber: #D97706;
+  --color-pineapple-light: #FEF3C7;
+  --color-pineapple-tag: #FDE68A;
+
+  /* Natural Pineapple Leaf Crown (Pine Green) */
+  --color-leaf-green: #2D6A4F;
+  --color-leaf-light: #D8F3DC;
+  --color-leaf-badge: #E8F7ED;
+
+  /* Apple-inspired Soft Borders & Shadows */
+  --border-subtle: rgba(28, 25, 23, 0.08);
+  --border-card: rgba(28, 25, 23, 0.06);
+  --border-active: rgba(232, 158, 35, 0.4);
+
+  --shadow-sm: 0 2px 8px rgba(40, 30, 20, 0.04);
+  --shadow-card: 0 4px 20px -2px rgba(40, 30, 20, 0.05), 0 2px 6px -1px rgba(40, 30, 20, 0.03);
+  --shadow-hover: 0 14px 34px -4px rgba(40, 30, 20, 0.09), 0 4px 12px -2px rgba(40, 30, 20, 0.04);
+  --shadow-float: 0 20px 48px -8px rgba(40, 30, 20, 0.12);
+
+  /* Apple Ergonomic Radius (Gentle & Organic) */
+  --radius-pill: 9999px;
+  --radius-xl: 24px;
+  --radius-lg: 18px;
+  --radius-md: 14px;
+  --radius-sm: 10px;
+
+  /* Typography: Apple System Font + Plus Jakarta Sans + JetBrains Mono */
+  --font-display: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Plus Jakarta Sans", sans-serif;
+  --font-body: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Plus Jakarta Sans", sans-serif;
+  --font-mono: "SF Mono", "JetBrains Mono", Menlo, monospace;
+
+  /* Spacing Scale */
+  --space-2xs: 4px;
+  --space-xs: 8px;
+  --space-sm: 12px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+  --space-2xl: 48px;
+  --space-3xl: 64px;
+  --space-4xl: 96px;
+
+  /* Transitions (Apple ease spring-like damping) */
+  --dur-fast: 160ms;
+  --dur-normal: 260ms;
+  --dur-slow: 400ms;
+  --ease-apple: cubic-bezier(0.22, 1, 0.36, 1);
+}
